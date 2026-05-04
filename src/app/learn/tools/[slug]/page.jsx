@@ -54,6 +54,8 @@ export default async function page({params}) {
     <div className="p-8 max-w-2xl mx-auto">
       <h1 className="text-4xl font-bold mb-4">{tool.name}</h1>
       <p className="text-gray-400 text-lg leading-relaxed">{tool.desc}</p>
+      <p className="text-gray-200 text-lg leading-relaxed">category: {tool.category}</p>
+      <p className="text-gray-300 text-lg leading-relaxed"> Star Count:{tool.starCount }</p>
       
       <div className="mt-8">
         <Link href="/" className="text-sm text-gray-300 hover:underline">← Back to home</Link>
