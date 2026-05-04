@@ -10,5 +10,7 @@ export function proxy(request) {
 
   if (inAboutPage && !isAdmin)
     return NextResponse.redirect(new URL("/", request.url));
+    // return NextResponse.rewrite(new URL("/", request.url));
   return NextResponse.next();
 }
+
