@@ -25,7 +25,8 @@ export default function RootLayout({ children }) {
     >
           
       
-      <body className="min-h-full flex flex-col">  <div className="navbar bg-base-100 shadow-sm">
+      <body className="min-h-full flex flex-col"> 
+         <div className="navbar bg-base-100 shadow-sm">
         <div className="flex-none">
           <button className="btn btn-square btn-ghost">
             <svg
