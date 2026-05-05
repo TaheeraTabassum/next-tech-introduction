@@ -1,5 +1,10 @@
 import Link from 'next/link';
 
+export const metadata  = {
+    title:"learn"
+    ,
+    description:"loading tools using client component"
+}
 const tools = [
   {
     slug: 'tailwind-css',
